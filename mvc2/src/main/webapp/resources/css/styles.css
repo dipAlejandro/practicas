@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+/* Estilos generales */
+
+/* Estilos para la navegación */
+nav {
+	background-color: #34495E;
+	padding: 10px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+.brand {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+nav ul li a:hover {
+	color: #18BC9C;
+}
+
+/* Estilos para el contenedor */
+.container {
+	width: 80%; /* Ajuste del ancho */
+	margin: 0 auto; /* Centrado horizontal */
+	font-family: Arial, sans-serif; /* Cambio de la tipografía */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombras */
+	padding: 20px; /* Espaciado interno */
+}
+
+/* Estilos para el jumbotron */
+.jumbotron {
+	background-color: #2E86C1; /* Cambio de color */
+	color: #FFF;
+	padding: 40px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+/* Estilos para la tabla */
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+table th, table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+table th {
+	background-color: #f2f2f2;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+/* Estilos para el footer */
+footer {
+	background-color: #34495E;
+	color: #FFF;
+	padding: 20px;
+	text-align: center;
+	position: static;
+	bottom: 0;
+	width: 100%;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+footer ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+footer ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+footer ul li a:hover {
+	color: #18BC9C;
+}
+
+/* Estilos para los botones de enlace */
+.link-btn {
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+.link-btn.info, .sf-button.info {
+	background-color:rgb(0, 128, 255);
+	color: #FFF;
+	padding: 10px 20px;
+}
+
+.link-btn.info:hover, .sf-button.info:hover {
+	background-color: rgb(0, 118, 192);
+}
+
+.link-btn.success, .sf-button.success {
+	background-color: #48C9B0;
+	color: #FFF;
+	padding: 10px 20px;
+}
+
+.link-btn.success:hover, .sf-button.success:hover {
+	background-color: #1ABC9C;
+}
+
+.link-btn.danger, .sf-button.danger {
+	background-color: #FF5733;
+	color: #FFF;
+	padding: 10px 20px;
+}
+
+.link-btn.danger:hover, .sf-button.danger:hover {
+	background-color: #D64528;
+}
+
+/* Estilos específicos */
+
+/* Estilos para el formulario */
+.form-group {
+	width: 50%;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: medium;
+}
+
+.sf-input, .sf-password {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.sf-button {
+	color: #FFF;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+
+/* Estilos para la alerta */
+.alert {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.alert.warning {
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	color: #a94442;
+}
+
+/* Estilos para la alerta de éxito */
+.alert-success {
+	background-color: #D4EDDA;
+	color: #155724;
+	border: 1px solid #C3E6CB;
+}
+
+.alert-success h1 {
+	margin-top: 0;
+}
